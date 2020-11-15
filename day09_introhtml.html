@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BASIC HTML</title>
+    </head>
+    <body>
+        <!-- NOTE -->
+        <!-- apapun yg ditampilkan di website, ditulis dlm tag body -->
+        <!-- HTML is not a programming lang -->
+        <!-- BASIC HTML ELEMENT
+        REF : https://developer.mozilla.org/en-US/docs/Web/HTML/element -->
+
+        <!-- NOTE : -->
+        <!-- CONTENT ELEMENT -->
+        <!-- HEADING (hanya sampai H6)-->
+        <h1>Heading Level 1</h1>
+        <h2>Heading Level 2</h2>
+        <h3>Heading Level 3</h3>
+        <h4>Heading Level 4</h4>
+        <h5>Heading Level 5</h5>
+        <h6>Heading Level 6</h6>
+        
+        <!-- NOTE -->
+        <!-- PARAGRAPH -->
+        <p>Ini paragraf, ditulis memakai HTML, biasa saja tdk usah panjang - panjang</p>
+        <p>Ini paragraf baru, berbeda dengan yg di atas</p>
+
+        <!-- NOTE -->
+        <!-- INLINE TEXT SEMANTIC -->
+        <!-- Formatting text -->
+        <!-- Bold, emphasis, italic, strong, underline,dll -->
+        <b>Tebal</b>
+        <p><b>Paragraf ini tebal</b></p>
+        <mark>ini diberi mark</mark> <br>
+        <i>ini italic</i> <br>
+        <em>ini emphasis</em> <br>
+        <strong>mirip dengan bold</strong> <br>
+        <sub>subscript bawah</sub>
+        <sup>superscript atas</sup> <br>
+        <del>deleted itu strikethrough</del> <br>
+        <ins>insert itu underline</ins> <br>
+
+        <!-- NOTE -->
+        <!-- LIST CONTEXT -->
+        <!-- 2 type of list : ordered list & un-ordered list -->
+        <!-- 1. ORDERED LIST -->
+        <ol>
+            <li>Beli makan</li>
+            <li>Beli Jajan</li>
+            <li>Main Game</li>
+        </ol>
+        <!-- NOTE  -->
+        <!-- UNORDERED LIST -->
+        <ul>
+            <li>Belajar HTML</li>
+            <li>Belajar Javascript</li>
+            <li>CSS</li>
+
+        <!-- NOTE -->
+        <!-- FORMS INPUT -->
+        <input type = 'text' placeholder = 'Username'/>
+        <input type = 'password' placeholder = 'Password'/>
+        <input type = 'email' placeholder ='E-mail'>
+        <input type = 'checkbox'>benar 
+        <input type = 'checkbox'>salah
+        <br>
+        <input type = 'radio'>radio1
+        <input type = 'radio'>radio2
+        <br>
+        <input type = 'datetime-local'/>
+        <input type = 'color'>
+        <progress></progress>
+
+        <!-- NOTE -->
+        <!-- BUTTON -->
+        <br>
+        <input type = 'button' value = 'CLICK ME'>
+        <button>BUTTON 2</button>
+
+        <!-- NOTE -->
+        <!-- OPTION : DROP DOWN MENU-->
+        <select>
+            <option>Pilihan 1</option>
+            <option>Pilihan 2</option>
+            <option>Pilihan 3</option>
+        </select>
+
+        <!-- NOTE -->
+        <!-- SLIDER -->
+        <br>
+        <input type = 'range' min = '0' max = '10' step = '2'> 
+
+        <!-- NOTE -->
+        <!-- MENGELOMPOKKAN FORM  -->
+        <br>
+        <form>
+            <label for="username">USERNAME</label>
+            <input type="username" placeholder="Username">
+        </form>
+        <br>
+
+        <!-- NOTE -->
+        <!-- TABLE -->
+        <table>
+            <!-- table header -->
+            <thead>
+                <!-- tr table row -->
+                <tr>
+                    <!-- th header column -->
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>School</th>
+                </tr>
+            </thead>
+            <!-- table body -->
+            <tbody>
+                <!-- tr table row-->
+                <tr>
+                    <!-- td : table column -->
+                    <td>1.</td>
+                    <td>Jane</td>
+                    <td>25</td>
+                    <td>Jakarta</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Elsa</td>
+                    <td>20</td>
+                    <td>Bandung</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- NOTE -->
+        <!-- CARA NAMPILIN IMAGE, LINK dan LOCAL FILE-->
+        <img src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width="500px">
+
+        <!-- NOTE -->
+        <!-- INTERACTIVE ELEMENT -->
+        <dialog open>
+            <h1>INI DIALOG</h1>
+        </dialog>
+    </body>
+</html>
